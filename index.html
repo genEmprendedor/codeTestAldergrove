@@ -205,7 +205,12 @@
             </div>
             <!--/.text_inside_box-->
             <div class="form_inside_cn">
-              <form>
+              <form
+                name="contact"
+                method="POST"
+                data-netlify-recaptcha="true"
+                data-netlify="true"
+              >
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" name="" />
                 <input type="email" placeholder="Confirm Email" name="" />
