@@ -211,10 +211,31 @@
                 data-netlify-recaptcha="true"
                 data-netlify="true"
               >
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" name="" />
+                <input
+                  placeholder="Your name"
+                  name="name"
+                  type="text"
+                  required
+                />
+                <input
+                  placeholder="Your Email Address"
+                  name="email"
+                  type="email"
+                  required
+                />
                 <!-- <input type="email" placeholder="Confirm Email" name="" /> -->
-                <textarea rows="5" placeholder="Enquiry"></textarea>
+                <input
+                  placeholder="Your Phone Number (optional)"
+                  name="phone"
+                />
+                <textarea
+                  rows="5"
+                  placeholder="Enquiry"
+                  name="message"
+                  type="text"
+                  required
+                ></textarea>
+
                 <div data-netlify-recaptcha="true"></div>
                 <button type="submit">send</button>
               </form>
